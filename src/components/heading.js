@@ -1,7 +1,7 @@
 import React from "react";
 const styles = {
     Heading: {
-        background: "#e8eaf6",
+        background: "#31798B",
         textAlign: "center"
     }
 
@@ -10,10 +10,10 @@ const styles = {
 
 function Heading() {
     return (
-        <div  class="jumbotron jumbotron-fluid">
-        <div style={styles.Heading} class="container">
+        <div style={styles.Heading}  class="jumbotron jumbotron-fluid">
+        <div  class="container">
         <h1 class="display-4">Employee Directory</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <p class="lead">CLick on the Name Search box and filter the name you are looking for</p>
         </div>
         </div>
 
